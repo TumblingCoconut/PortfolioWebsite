@@ -1,0 +1,110 @@
+/* Photo by <a href="https://unsplash.com/@raddfilms?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Redd F</a> on <a href="https://unsplash.com/photos/cars-parked-near-brown-building-wOj5odhDOZ0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+*/
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+
+}
+
+a {
+    all: unset;
+}
+
+li {
+    list-style: none;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav {
+    background-color: #284b63;
+    color: #F5F6F8;
+    
+    /* Makes Nav Bar float */
+    position: sticky;
+    top: 0;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    font-size: 19px;
+    padding-left: 20px;
+    padding-right: 10px;
+    
+}
+
+#home {
+    display: flex;
+    background-color: #515050;
+    height: 800px;
+    flex-direction: column;
+    align-items: center;
+    justify-content:flex-start;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-position: center;
+}
+
+#home img {
+    border-color: white;
+    border-style: solid;
+    height: 250px;
+    border-radius: 100%;
+    margin: 30px;
+    margin-top: 100px;
+}
+
+.home_text {
+    color: white;
+    font-size: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#greeting {
+    font-size: 40px;
+}
+
+#About_me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 30px;
+    padding: 20px;
+}
+
+#aboutMe_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+#aboutMe_content p {
+    font-size: 20px;
+    text-indent: 50px;
+    width: 600px;
+}
+
+#aboutMe_content img {
+    width: 35%;
+
+}
